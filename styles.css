@@ -1,0 +1,109 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(./peakpx.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color:rgb(238, 238, 238);
+    padding: 0px 50px 0 50px;
+
+}
+.head1{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+body::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.452);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul,li{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-top: 30px;
+    display: flex;
+
+}
+nav ul li{
+    margin-left: 70px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+a:hover{
+    color:rgb(238, 238, 238);
+    opacity: 0.5;
+}
+.Banner{
+    margin-top: 60px;
+    width: 85%;
+
+}
+h1{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px; 
+
+}
+p{
+    margin-left: 35px;
+    margin-bottom: 40px;
+    width: 50%;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Mukta', sans-serif;
+
+}
+
+.btn{
+    margin-left: 35px;
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 40px;
+    border:3px solid #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-right: 15px;
+    
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    border-color:black;
+}
+.me{
+    color:rgb(238, 238, 238);
+    opacity: 0.5;
+}
+
+
+
+
